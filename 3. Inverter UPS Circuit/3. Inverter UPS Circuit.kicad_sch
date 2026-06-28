@@ -3763,12 +3763,6 @@
 		(uuid "8122f1a1-a042-4269-85cb-c03ddd2bf5de")
 	)
 	(junction
-		(at 184.15 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81a6e494-c12f-4b42-a8f2-74a98dea921e")
-	)
-	(junction
 		(at 124.46 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3827,6 +3821,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ff5d79-d3df-495a-8abd-1bc039216680")
+	)
+	(junction
+		(at 184.15 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c376fe0f-0249-401a-9096-9bdbb4904dd5")
 	)
 	(junction
 		(at 160.02 121.92)
@@ -4532,16 +4532,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 43.18) (xy 201.93 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b49e08f-323f-4da1-8c53-653e1dd899dc")
-	)
-	(wire
-		(pts
 			(xy 210.82 121.92) (xy 210.82 137.16)
 		)
 		(stroke
@@ -4969,6 +4959,16 @@
 			(type default)
 		)
 		(uuid "ae8f7214-1790-45e9-88ed-e6b2ded3cf73")
+	)
+	(wire
+		(pts
+			(xy 184.15 43.18) (xy 201.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af95d6ab-9a0b-496d-acb0-02ef7dcac70f")
 	)
 	(wire
 		(pts
@@ -5559,93 +5559,6 @@
 			(type default)
 		)
 		(uuid "ff534fe6-d2c1-4af7-bf30-861bb4cace55")
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRF540N")
-		(at 181.61 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "177396ca-8fc8-4e96-9e6b-21ec0c224f9a")
-		(property "Reference" "Q2"
-			(at 180.34 54.356 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF540N"
-			(at 180.34 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 186.69 50.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 186.69 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 181.61 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "53de0a59-33c0-4911-8910-bbc992f331cc")
-		)
-		(pin "1"
-			(uuid "e11118cd-8ee8-42bc-b76a-f5c4e1bac093")
-		)
-		(pin "3"
-			(uuid "fefd08ef-661e-4ec7-8ff7-e7cc69b7516f")
-		)
-		(instances
-			(project "3. Inverter UPS Circuit"
-				(path "/e3619b5b-f99a-4455-9922-ad58ba7f57ef"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
@@ -7991,6 +7904,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IRF540N")
+		(at 181.61 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9abbbcdd-d98d-4d4b-b45d-b074e015d70e")
+		(property "Reference" "Q2"
+			(at 180.34 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF540N"
+			(at 180.34 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 186.69 50.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
+			(at 186.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
+			(at 181.61 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "736e83d1-614a-4be7-bfe6-a58eb22c29d8")
+		)
+		(pin "1"
+			(uuid "f2e126ed-896e-4095-b750-ea638ddef979")
+		)
+		(pin "3"
+			(uuid "00fa710b-a422-4178-8cf6-99b5110b7fd9")
+		)
+		(instances
+			(project "3. Inverter UPS Circuit"
+				(path "/e3619b5b-f99a-4455-9922-ad58ba7f57ef"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 130.81 130.81 0)
 		(unit 1)
@@ -9642,7 +9642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fac34d9b-0813-4989-9800-023a0a84e0ee")
-		(property "Reference" "Q2"
+		(property "Reference" "Q11"
 			(at 78.74 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9734,7 +9734,7 @@
 		(instances
 			(project "3. Inverter UPS Circuit"
 				(path "/e3619b5b-f99a-4455-9922-ad58ba7f57ef"
-					(reference "Q2")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
